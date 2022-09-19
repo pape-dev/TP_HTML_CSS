@@ -1,0 +1,210 @@
+/* le site*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/* le corps du site*/
+
+body{
+   
+    background-image: url(img/back-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body:hover{
+    background-color: #b32;
+}
+
+/* la partie qui regroupe les sections*/
+
+main{
+    width: 990px;
+    height: 990px;
+    margin: auto;
+    background-color: hsla(358, 28%, 95%, 0.85);
+}
+
+
+/* le logo du site*/
+
+header img{
+    width: 278px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+
+/* le menu du site*/
+
+.menu{
+    display: table;
+}
+
+
+nav{
+    width: 100%;
+    position: relative;
+    border-top:1px solid #2c3e50;
+    border-bottom:1px solid #2c3e50;
+}
+
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color:#222f3e;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 900;
+    border-right: 1px solid black;
+}
+
+
+
+.menu-active{
+    color: #EAB543;
+}
+
+
+/* description de la fourchette à droite*/
+
+.texte-presentation p{
+    float: right;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+
+/* la section à gauche*/
+
+.left{
+    float: left;
+    width: 280px;
+    height: auto;
+    padding: 0px 15px;
+    clear: both;
+}
+
+
+/* la section à droite*/
+
+.right{
+    float: right;
+    width: 680px;
+    padding: 0px 15px;
+}
+
+
+/* les titres <h1> */
+
+h1{
+    font-size: 20px;
+}
+
+
+/* les paragraphes*/
+
+p{
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+
+/* le paragraphe de la première section*/
+
+.totalorium-date{
+    margin: 0px;
+}
+
+
+/* le <h2> de la première section*/
+
+.italic{
+    font-style: italic;
+}
+
+
+.totalorium{
+    margin-bottom: 0px;
+}
+
+
+/* le second <h2> de la première section*/
+.sujet-même{
+    border-top: 2px solid #222f3e;
+    font-size: 25px;
+    color:#576574 ;
+}
+
+
+/* les trois images (côté à côté)*/
+
+.groupe-images{
+    float: left;
+    width: 200px;
+    height: 150px;
+
+    margin-right:10px;  
+}
+
+
+
+/* les légendes*/
+
+h3{
+    text-align: center;
+    font-style: normal;
+    margin-top: 2px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #ff3f34;
+
+}
+
+
+/* le pied de page*/
+
+.footer{
+  clear: both;
+  text-align: right;
+  padding-top: 50px;
+}
+
+
+
+.footer p{
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+
+
+.footer hr{
+    border: 1px solid black;
+}
+
+
+
+

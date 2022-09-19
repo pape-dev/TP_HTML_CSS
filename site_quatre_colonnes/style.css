@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;   
+}
+
+/* le corps du site */
+
+body{
+    width: 990px;
+    text-align: justify;
+}
+
+/* l'entête du site */
+
+header{
+    width: auto;
+    background-color: #ff5e57;
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/* le bloc à gauche du site */
+
+.bloc-gauche{
+    width: 630px;
+    height: 630px;
+    background-color: #808e9b;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/* le bloc à droite du site */
+
+.bloc-droite{
+    width: 300px;
+    height: 300px;
+    background-color: #d2dae2;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/* le bloc au niveau du pied de page du site */
+footer{
+    height: 80px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #EAB543;
+    clear: both;
+    text-align: center;
+}
